@@ -1,0 +1,137 @@
+/* General reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body { 
+    font-family: Arial, sans-serif; 
+    background: url('IMG_0778.png') center/cover no-repeat;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5); /* Translucent overlay */
+    z-index: -1; /* Sit behind the content */
+  }
+  
+  /* Container and section styles */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2%; /* Consistent padding on the sides */
+    position: relative; /* For z-index to work */
+    min-height: 100vh; /* Make sure the container covers at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will push the footer to the bottom */
+  }
+
+  
+  
+  .header, {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+  .registration .register-button {
+    display: block; /* Make it a block element to fill the container */
+    background-color: #008cba;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto; /* Center the button */
+    width: 100%; /* Full width */
+  }
+  
+  /* Main content styles */
+  .main-content {
+    padding: 20px 0; /* Vertical padding for content */
+  }
+  
+  .main-content h2, .main-content h3 {
+    margin-bottom: 1em; /* Space below headings */
+  }
+  
+  .main-content p, .main-content li {
+    margin-bottom: 0.75em; /* Space below paragraphs and list items */
+  }
+  
+  .main-content ul {
+    list-style: none; /* Remove default list styling */
+    padding-left: 1.5em; /* Indentation for list */
+  }
+  
+  .main-content li::before {
+    content: '- '; /* Dash for list items */
+    color: #333; /* Color of dash */
+  }
+
+  .footer,.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    min-height: 50px; /* Example minimum height */
+    margin-bottom: 20px; /* Adds space below the footer */
+  }
+  /* Logo container styles */
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Even spacing around items */
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px; /* Space above logo container */
+    background-color: #fff; 
+  }
+  
+  .logo-container img {
+    width: 100%; /* Full width */
+    max-width: 150px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Margin around logos */
+  }
+
+  .small-logo {
+    max-width: 90px !important; /* Set a relative width that scales with screen size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .logo-container img {
+      width: 50%; /* Adjust width for 2 logos per row */
+      margin-bottom: 10px; /* Space between rows */
+    }
+  
+    .small-logo {
+      max-width: 45px; /* Further decrease the width by a fixed ratio on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo-container img {
+      width: 50%; /* Adjust width for smaller screens */
+    }
+    
+    .small-logo {
+      max-width: 40px; /* Further decrease the width on very small screens */
+    }
+  }
+  

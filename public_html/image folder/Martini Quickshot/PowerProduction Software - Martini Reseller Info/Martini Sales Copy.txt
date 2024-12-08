@@ -1,0 +1,30 @@
+Martini Description:
+
+Now, bridging the gap between your unshot scenes and your final edit is faster and easier than ever with the shot-creating power of Martini!
+
+Don't get blacked out! No more black slugs with text explaining what "shot goes here" - SHOW that shot wth the dynamic power of Martini. From single shots to multi-shot sequences, Martini helps directors and editors piece together a better final film.
+
+Loaded with hundreds of classic and unique shot styles Martini's easy-to-use interface guides you through the quick creation of frames. Select a shot style, from single person up to 5 people in a shot...everything you need from basic over-the-shoulder shots, two and three shots, close-ups as well as fight scenes, chase scenes and other pre-composed multi-shot sequences. 
+
+Martini Features:
+
+* Hundreds of Pre-designed shots and sequences
+* Packed with location and backdrop shots
+* Import digital photos/custom backgrounds
+* Stylish characters to populate your shot
+* Easy creation of shot descriptions and subtitles
+* Composite Frame allows you to zoom in and out of any object
+* Cropping tool easily erases anything you don't want in your shot
+* Integrate real footage with your Martini sequences
+* Preview entire sequences, change durations, reaarange sequences
+* Export your sequences to Final Cut Pro
+* Works with StoryBoard Quick
+* Easy to navigate interface makes shot creation fast!
+* Save tons of time and money visualizing your future shots
+
+System Requirements:
+
+Macintosh:
+
+OS X 10.4+ Universal Binary Intel or PowerPC Mac
+Final Cut Pro 6 or higher
